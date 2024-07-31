@@ -126,6 +126,17 @@ font-weight: 500;
     margin-top: 0;
     margin-bottom: 0;
 }
+#Experienc-bage{
+        padding: 45px 42px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-left: -100px;
+        margin-top: -100px;
+}
+#Experienc-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
 /* some fact relate style  */
 .section-titles{
     margin-left: 100px;
@@ -172,8 +183,11 @@ font-weight: 500;
 }
 /* small device media query */
 @media screen and (max-width:576px) {
-    .navbar,.nav-link,.teams{
+    .navbar,.nav-link,.teams,.feature{
         flex-direction: column;
+    }
+    .Experienc-architect img{
+        width: 100%;
     }
     .banner-title,.section-title{
         font-weight: 700;
@@ -189,6 +203,13 @@ font-weight: 500;
     }
     .our-feature{
         margin:0 10px 0 20px;
+    }
+    #Experienc-bage{
+    margin-left:20px;
+    margin-top: 20px;
+    }
+    #Experienc-year{
+        font-size: 2rem;
     }
 }
 /* medium device media query */
@@ -206,4 +227,18 @@ font-weight: 500;
         grid-template-columns: repeat(2,1fr);
         gap:24px ;
     }
+    .Experienc-architect img{
+        width: 100%;
+    }
+    #Experienc-bage{
+        padding: 20px;
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin-left: 20px;
+        margin-top: 20px;
+
+}
+#Experienc-year{
+    font-size:2.5rem ;
+}
 }
