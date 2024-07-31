@@ -181,6 +181,15 @@ font-weight: 500;
 .sponsor-companer img{
     filter: grayscale(100%);
 }
+.footer{
+    border-radius: 8px;
+background: rgb(255, 244, 231);
+margin: 100px;
+}
+.copyright{
+    padding: 50px;
+    text-align:center;
+}
 /* small device media query */
 @media screen and (max-width:576px) {
     .navbar,.nav-link,.teams,.feature{
@@ -210,6 +219,11 @@ font-weight: 500;
     }
     #Experienc-year{
         font-size: 2rem;
+    }
+    .footer{
+        border-radius: 8px;
+    background: rgb(255, 244, 231);
+    margin: 100px 10px;
     }
 }
 /* medium device media query */
